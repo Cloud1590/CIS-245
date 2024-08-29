@@ -10,5 +10,7 @@ fiberCost = 0.87
 #Calculate the total cost of fiber
 totalCost = int(fiberLength) * fiberCost
 
-#Display the total cost of fiber to the console
+#Display the company name and total cost of fiber to the console
+
+print("SpeedForce Fiber")
 print("The total cost of fiber is $" + str(totalCost))
