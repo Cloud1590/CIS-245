@@ -31,7 +31,3 @@ I helped Michael with this issue because he ran into it as well.
 # Formatting the output string to include two decimal places
 print("SpeedForce Fiber")
 print(f"The total cost of fiber is ${totalCost:.2f}")
-
-
-
-
