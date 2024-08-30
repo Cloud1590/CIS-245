@@ -8,7 +8,7 @@ fiberLength = input("Enter the length of fiber cable needed in feet: ")
 fiberCost = 0.87
 
 #Calculate the total cost of fiber
-totalCost = int(fiberLength) * fiberCost
+totalCost = float(fiberLength) * fiberCost
 
 #Display the company name and total cost of fiber to the console
 
