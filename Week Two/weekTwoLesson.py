@@ -28,7 +28,7 @@ print("Thank you for using BU Grading Center!")
 Determine if someone qualifies for a loan based on two conditions:
     1. They must make at least $30,000 per year
     2. They must have been at their current job for at least two years
-'''
+
 
 # Get the annual salary from the user
 annualSalary = float(input("Enter your annual salary: "))
@@ -39,4 +39,4 @@ if annualSalary >= 30000 and yearsAtJob >= 2:
     print("Congratulations! You qualify for a loan!")
 else:
     print("Sorry, you do not qualify for a loan.")
-
+'''
