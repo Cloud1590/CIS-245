@@ -35,4 +35,3 @@ elif float(fiberLength) > 100:
 # Print the output
 print("SpeedForce Fiber")
 print(f"The total cost of fiber is ${totalCost:.2f}")
-
