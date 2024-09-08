@@ -20,7 +20,7 @@ if score >= 80:
 example continued:
 
 if score >= 80:
-    print("You passed!")
+    print("You passed!")
 else:
-    print("You failed!")
+    print("You failed!")
 '''
