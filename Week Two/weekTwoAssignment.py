@@ -1,5 +1,6 @@
 '''
-Building on the program you developed in Module 1, you will implement if statements for this assignment. In Module 1, you calculated the total cost of fiber cable installation by multiplying the number of feet by $.87. For this assignment, you will evaluate a bulk discount. Modify your program from Module 1 with the following steps:
+Building on the program you developed in Module 1, you will implement if statements for this assignment. In Module 1, you calculated the total cost of fiber cable installation by multiplying the number of feet by $.87. 
+For this assignment, you will evaluate a bulk discount. Modify your program from Module 1 with the following steps:
 Display a welcome message for your program.
 Capture the number of feet of fiber optic to be installed from the user.
 Evaluate the total cost based on the number of feet requested as described below.

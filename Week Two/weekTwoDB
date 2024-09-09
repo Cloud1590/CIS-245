@@ -1,26 +1,19 @@
-'''When creating an If/else statement, it is important to remember the correct syntax in order to ensure the code runs as expected. 
+When creating an If/else statement, it is important to remember the correct syntax in order to ensure the code runs as expected. 
 
-1. An if/else statement always starts with three components: 
+1. An if/else statement always contains three components: 
 
-
-
+The variable, the condition and the colon. 
 
 Example:
 
 if score >= 80:
 
+2. The true statement must be indented underneath the "If" statement. Anything that comes back as false, python will move on to the next non-indented line. (including elif statements) 
 
 
-
-2. The true statement must be indented, underneath the 
-
-
-
-
-example continued:
+Example continued:
 
 if score >= 80:
     print("You passed!")
-else:
+elif:
     print("You failed!")
-'''
