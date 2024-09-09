@@ -13,7 +13,7 @@ for x in 4, 5, 6, 7, 8, 9, 10:
     print(x)
 
 
-for x in range(2, 11):
+for x in range(1, 11):
     print(x)
 
 
