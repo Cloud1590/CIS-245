@@ -1,6 +1,9 @@
-'''code a while loop that displays the numbers 1-10'''
-
+#while loop that displays the numbers 1-10
 num = 1
 while num <= 10:
     print(num)
     num += 1  
+# Output: 1 2 3 4 5 6 7 8 9 10
+#identify the initialization, comparison, and update expressions in the while loop
+# initialization: num = 1
+# comparison: num <= 10
