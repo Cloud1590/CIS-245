@@ -13,6 +13,9 @@ for x in 4, 5, 6, 7, 8, 9, 10:
     print(x)
 
 
+for z in range [10]
+    print(z)
+
 for x in range(1, 11):
     print(x)
 
