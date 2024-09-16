@@ -10,3 +10,8 @@ kilometers = miles_to_kilometers(miles)
 
 print("You drove", miles, "miles.")
 print("That is", kilometers, "kilometers")
+
+
+def stinky():
+    print("I'm stinky!")
+    print("https://www.youtube.com/watch?v=9bZkp7q19f0")
