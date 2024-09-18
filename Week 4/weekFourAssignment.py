@@ -15,3 +15,18 @@ print("That is", kilometers, "kilometers")
 def stinky():
     print("I'm stinky!")
     print("https://www.youtube.com/watch?v=9bZkp7q19f0")
+
+z = 0
+
+def printTwo(one):
+        x = one + 1
+        return x
+def printOne(one):
+        x = one + 1
+        return x
+
+print(printOne(1))
+print(printTwo(1))
+
+
+
