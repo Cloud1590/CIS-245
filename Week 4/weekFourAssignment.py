@@ -28,5 +28,18 @@ def printOne(one):
 print(printOne(1))
 print(printTwo(1))
 
+def addOne(x):
+    x = 10
+    print (x)
+
+x = 5
+addOne(x)
+print(x)
 
 
+
+
+
+def show_tax(tax_rate, price = 10):
+    tax = price * tax_rate
+    print(f'The tax is {tax}')
