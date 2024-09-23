@@ -77,3 +77,34 @@ if __name__ == "__main__":
 # The __name__ variable is a special variable in Python that contains the name of the current module.
 # When a Python script is run, the __name__ variable is set to "__main__" if the script is being run as the main program.
 # If the script is being imported as a module, the __name__ variable is set to the name of the module.
+def stinky():
+    print("I'm stinky!")
+    print("https://www.youtube.com/watch?v=9bZkp7q19f0")
+
+z = 0
+
+def printTwo(one):
+        x = one + 1
+        return x
+def printOne(one):
+        x = one + 1
+        return x
+
+print(printOne(1))
+print(printTwo(1))
+
+def addOne(x):
+    x = 10
+    print (x)
+
+x = 5
+addOne(x)
+print(x)
+
+
+
+
+
+def show_tax(tax_rate, price = 10):
+    tax = price * tax_rate
+    print(f'The tax is {tax}')
