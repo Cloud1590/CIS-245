@@ -1,2 +1,12 @@
-hello
-stinky boi
+Hello, this is content from a variable.
+Hello, this is content from a variable.
+Hello, this is content from a variable.
+Hello, this is content from a variable.
+Hello, this is content from a variable.
+Hello, this is content from a variable.
+Hello, this is content from a variable.
+Hello, this is content from a variable.
+Hello, this is content from a variable.
+Hello, this is content from a variable.
+Hello, this is content from a variable.
+Hello, this is content from a variable.
