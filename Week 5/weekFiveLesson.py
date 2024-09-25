@@ -75,6 +75,8 @@ file.close()
 #write a loop to write 1-1000 fo a file called "numbers.txt"
 #wach number gets its own line
 
+'''
+
 file = open("numbers.txt", "w")
 for i in range(1, 1001):
     file.write(str(i) + "\n")
@@ -86,6 +88,60 @@ while line != "":
     print(line)
     line = file.readline()
 file.close()
+
+
+file = open("example.txt", "r")
+for line in file:
+    print(line)
+file.close()
+
+'''
+
+'''
+
+Transactions = open("transactions.txt" , "r")
+Account = open("account.txt" , "r")
+total_transactions = 0
+account_balance = 10000
+
+for line in Transactions:
+    total_transactions = total_transactions + int(line)
+for line in Account:
+    account_balance = int(line)
+
+account_balance = account_balance - total_transactions
+print("The account balance is: ", account_balance)
+
+Transactions.close()
+Account.close()
+Account = open("account.txt" , "w")
+Account.write(str(account_balance))
+Account.close()
+
+'''
+
+'''
+try:
+    file = open("exmaple.txt", "r")
+    content = file.read()
+    print(content)
+
+except FileNotFoundError:
+    print("The file was not found.")
+
+'''
+
+try:
+    number = '10'
+    number = number + 10
+
+except TypeError:
+    print("wrong data type.")
+
+except:
+    print("An exception occurred.")
+
+
 
 
 
