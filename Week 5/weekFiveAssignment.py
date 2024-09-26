@@ -25,4 +25,6 @@ def main():
         print(line)
         line = file.readline()
     file.close()
-    
+
+
+main()
