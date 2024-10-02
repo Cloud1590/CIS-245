@@ -68,7 +68,15 @@ else:
 # could we do this without a file? - no. 
 # coukd we do this without a list? - yes.
 
+# use a dictionary instead
 
+my_products = {"product1": "laptop", "product2": "tablet", "product3": "phone"}
+
+if product_purchased in my_products.values():
+    print("Product purchased")
+    
+else:
+    print("Product not purchased")
 
 
 
