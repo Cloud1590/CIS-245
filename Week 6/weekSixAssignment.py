@@ -1,3 +1,5 @@
+#import os
+
 # arrays
 
 temp = []
@@ -53,11 +55,13 @@ print(x [0:2])
 customer_name = input("Enter customer name: ")
 product_purchased = input("Enter product purchased: ")
 
-file = open("customer.txt", "r")
-my_products = [] # empty list
+my_products = []  # empty list
+
+file = open(customer_name, "r")
 
 for x in file:
     my_products.append(x)
+file.close()
 
 if product_purchased in my_products:
     print("Product purchased")
@@ -70,6 +74,8 @@ else:
 
 # use a dictionary instead
 
+'''
+
 my_products = {"product1": "laptop", "product2": "tablet", "product3": "phone"}
 
 if product_purchased in my_products.values():
@@ -78,6 +84,6 @@ if product_purchased in my_products.values():
 else:
     print("Product not purchased")
 
-
+'''
 
 
