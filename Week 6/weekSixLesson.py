@@ -57,11 +57,12 @@ product_purchased = input("Enter product purchased: ")
 
 my_products = []  # empty list
 
-file = open(customer_name, "r")
-
-for x in file:
-    my_products.append(x)
-file.close()
+try:
+    with open(customer_name + ".txt", "r") as file:
+        for x in file:
+            my_products.append(x.strip())
+except FileNotFoundError:
+    print("Customer file not found.")
 
 if product_purchased in my_products:
     print("Product purchased")
