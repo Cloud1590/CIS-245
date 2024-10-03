@@ -2,6 +2,8 @@
 
 # arrays
 
+'''
+
 temp = []
 temp.append(34)
 temp.append(78)
@@ -12,6 +14,10 @@ for x in temp:
 for x in range(len(temp)):
     print(temp[x])
     
+'''
+
+
+
 
 
 '''
@@ -52,6 +58,41 @@ print(x [0:2])
 
 # Customer claims product purchased did not arrive. first thing needed to be determined is if the product purchased the product. 
 
+
+'''
+
+#this does not work
+customer_name = input("Enter customer name: ")
+product_purchased = input("Enter product purchased: ")
+
+my_products = []  # empty list
+print(customer_name)
+
+file = open(customer_name + ".txt", "r")
+
+for x in file:
+    my_products.append(x)
+file.close()
+    
+if product_purchased in my_products:
+    print("Product purchased")
+    
+else:
+    print("Product not purchased")
+    
+    
+'''    
+    
+    
+# could we do this without a file? - no. 
+# coukd we do this without a list? - yes.
+
+
+
+
+
+'''
+#this one works
 customer_name = input("Enter customer name: ")
 product_purchased = input("Enter product purchased: ")
 
@@ -69,22 +110,5 @@ if product_purchased in my_products:
     
 else:
     print("Product not purchased")
-    
-# could we do this without a file? - no. 
-# coukd we do this without a list? - yes.
-
-# use a dictionary instead
 
 '''
-
-my_products = {"product1": "laptop", "product2": "tablet", "product3": "phone"}
-
-if product_purchased in my_products.values():
-    print("Product purchased")
-    
-else:
-    print("Product not purchased")
-
-'''
-
-
