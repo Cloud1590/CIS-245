@@ -91,7 +91,7 @@ else:
 
 
 
-'''
+
 #this one works
 customer_name = input("Enter customer name: ")
 product_purchased = input("Enter product purchased: ")
@@ -101,14 +101,14 @@ my_products = []  # empty list
 try:
     with open(customer_name + ".txt", "r") as file:
         for x in file:
-            my_products.append(x.strip())
+            my_products.append(x)  # This will append the contents of the file to the list
+            
 except FileNotFoundError:
     print("Customer file not found.")
 
 if product_purchased in my_products:
-    print("Product purchased")
+    print("Product purchased")  # This is the output if the above statement returns true
     
 else:
-    print("Product not purchased")
+    print("Product not purchased")  # This is the output if the above statement returns false
 
-'''
