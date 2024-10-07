@@ -53,3 +53,7 @@ if sub_string in main_string:
     print("Substring found in the main string")
 else:
     print("Substring not found in the main string")
+
+
+
+#python is annoying because it is case sensitive
