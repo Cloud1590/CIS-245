@@ -21,6 +21,7 @@ print(id(x))
 x = "w" + x[1:]
 
 
+# Next example
 
 x = 1
 print(id(x))
@@ -28,9 +29,7 @@ print(id(x))
 x = x + 2
 print(id(x))
 
-
-
-
+# Strings are immutable in Python
 # String slicing
 
 # Define a string
@@ -41,9 +40,6 @@ print("original string: " + my_string)
 print("First five characters:", first_five_chars)
 print("Middle characters:", middle_chars)
 
-
-
-
 # Testing, Searching and Manipulating Strings
 
 main_string = "Hello, welcome to Python programming"
@@ -53,7 +49,5 @@ if sub_string in main_string:
     print("Substring found in the main string")
 else:
     print("Substring not found in the main string")
-
-
 
 #python is annoying because it is case sensitive
