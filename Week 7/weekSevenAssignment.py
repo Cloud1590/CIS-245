@@ -16,3 +16,12 @@ names = [name.capitalize() for name in names]
 
 #display output
 print(names[0][0] + ". " + names[1][0] + ". " + names[2][0] + ".")
+
+# Example of using the capitalize method
+
+x = "this is a string"
+
+x = x.capitalize()
+print(x)
+
+print(x.capitalize())
