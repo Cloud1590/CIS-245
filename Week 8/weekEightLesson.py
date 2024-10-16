@@ -120,3 +120,19 @@ else:
 
 
 
+names = ["Peter", "Bruce", "Steve", "Tony", "Natasha", "Clint"]
+
+for x in range(len(names)):
+    for y in range(len(names[x])):
+        print(names[x][y])
+
+
+
+
+Age = people_and_ages.get("Sam", "Person not found")
+
+
+if Age == "Person not found":
+    print("Person not found")
+else:
+    print("Age: ", Age)
