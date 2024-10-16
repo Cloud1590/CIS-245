@@ -136,3 +136,29 @@ if Age == "Person not found":
     print("Person not found")
 else:
     print("Age: ", Age)
+
+
+
+
+people_and_ages.pop("Bob")
+
+print("the age of Bob is: ", Age)
+
+for x in people_and_ages.keys():
+    print(x)
+    
+age = people_and_ages.pop("Sam", "Person not found")
+print("Age: ", age)
+
+
+
+del people_and_ages["Bob"]
+
+
+# What is the difference between using the pop method and the del statement?
+
+# The pop method removes the item with the specified key name, while the del statement removes the item with the specified key name, but it does not return the removed item.
+
+# What happens if you try to remove a key that does not exist?
+
+# If you try to remove a key that does not exist, the program will raise a KeyError.
