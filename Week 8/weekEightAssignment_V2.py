@@ -14,3 +14,4 @@ if not stock_info.empty:
     print(f"The closing price of {ticker} is {closing_price}")
 else:
     print(f"No data found for ticker symbol {ticker}")
+
