@@ -8,13 +8,16 @@ Once the user ends the loop display the student’s cumulative GPA.
 
 Create a student class that implements the following class diagram that will calculate and display student cumulative GPA: 
 
+Class:
 Student
+
 Attributes:
 First Name
 Last Name
 Grade Point
 Credits
 GPA
+
 Methods:
 __init__
 CalculateGPA
@@ -64,6 +67,6 @@ while True:
 
 # Calculate and display the student's cumulative GPA
 student.calculate_gpa()
-print(f"{student.first_name} {student.last_name}'s cumulative GPA is: {student.get_gpa()}")
 
 
+print(f"{student.first_name} {student.last_name}'s cumulative GPA is: {student.get_gpa():.2f}")
