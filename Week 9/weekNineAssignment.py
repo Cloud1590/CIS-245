@@ -54,7 +54,7 @@ print(f"Cumulative GPA: {student.get_gpa():.2f}")
 # Output:
 
 # Enter the student's first name: John
-# Enter the student's last name: Doe
+# Enter the student's last name: Smith
 # Enter the credits for the course (or 'done' to finish): 3
 # Enter the grade for the course: 4.0
 # Enter the credits for the course (or 'done' to finish): 4
@@ -62,7 +62,7 @@ print(f"Cumulative GPA: {student.get_gpa():.2f}")
 # Enter the credits for the course (or 'done' to finish): 3
 # Enter the grade for the course: 3.0
 # Enter the credits for the course (or 'done' to finish): done
-# Student: John Doe
+# Student: John Smith
 # Cumulative GPA: 3.42
 
 
